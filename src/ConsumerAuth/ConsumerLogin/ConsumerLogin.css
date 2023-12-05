@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'Athletics';
+    src: url('../../../public/assets/fonts/AthleticsRegular.otf') format('otf'),
+         url('../../../public/assets/fonts/AthleticsRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  } 
+ div.loginMaincontainer{
+    background-color: #f8f0e7;
+    min-height: 100vh;
+    height:auto;
+    background-image: url('../../../public/assets/images/mainBackgroundImage/mainbackgroundImage.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+  
+}
+  div.loginMaincontainerRow{
+    min-height: 100vh;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .mainRightDiv {
+      padding-top: 0px !important; /* Add your padding for medium screens here */
+    }
+  }
+
+  
+  
+  /* CSS for large screens (e.g., desktops and laptops) */
+  @media (min-width: 992px) {
+    .mainRightDiv {
+        padding-top: 0px !important;
+        padding-right: 40px;
+        padding-left: 40px;
+      /* Your styles for large screens here */
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 1100px) {
+    .loginMaincontainer div.mainLoginLeftSideImage{ 
+      background-size: cover !important;
+      /* Adjust other background properties if needed */
+    }
+  }
+  @media (max-width: 768px) {
+    /* Your CSS styles here */
+    .loginMaincontainer div.mainLoginLeftSideImage{ 
+        background-size: cover !important;
+        min-height: 800px;
+        height: auto; 
+        margin-bottom: 20px;
+        /* Adjust other background properties if needed */
+      }
+  }
+
+  .loginMaincontainer div.tab-pane{
+    background-color: #fff;
+    border-radius: 3px;
+  }
+  .loginMaincontainer div.mainLoginLeftSideImage{
+            background: url('../../../public/assets/images/loginImages/loginConsumerMainImage.jpg'); 
+            background-size: contain; 
+            background-repeat: no-repeat;
+
+        }
+       .loginMaincontainer div.signupform2{
+            padding: 0px;
+        }
+       .loginMaincontainer .full-height {
+            height: 100vh;
+        }
+
+        .loginMaincontainer .bordered-list {
+            border: 1px solid #ccc;
+            padding: 20px;
+            /* border-radius: 10px; */
+        }
+
+        .loginMaincontainer button.loginmainButton{
+            width: 100%;
+            background-color: #423B37;
+            color: #fff;
+           font-weight: 700;
+           border: none !important;
+           font-size: 15px;
+           padding-top: 0.75rem;
+           padding-bottom: 0.75rem; 
+           height: 48px;
+           font-style: normal;
+           line-height: 30px; /* 150% */
+           display: flex;
+           text-align: center;
+           justify-content: center;
+           align-items: center;
+                
+        }
+        .loginMaincontainer button.loginmainButton:hover{
+           background-color: #f68a40;
+        
+        }
+        .loginMaincontainer button.loginmainButton:focus{
+            background-color: #f68a40 !important;
+         
+         }
+
+         .loginMaincontainer .googleButton{
+            font-weight: 400;
+            border: none !important;
+            color: #514F4F;
+            width: 100%;
+            height: 54px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background-color: #fff !important;
+            font-size: 21.354px;;
+            font-weight: 400;
+            text-align: center;
+            font-style: normal;
+            line-height: normal;
+
+         }
+         .loginMaincontainer .googleButton:hover {
+            background-color: #558ae5 !important;
+        }
+         .loginMaincontainer .googleButton span{
+            background-color: #fff;
+            padding: 8px 8px 8px 8px !important;
+            margin-right: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 400;
+         }
+
+ 
+.loginMaincontainer a.loginlink{
+    color: #f68a40;
+    text-decoration: none;
+}
+
+.loginMaincontainer .custom-label {
+    text-align: left;
+}
+
+.loginMaincontainer .full-width-button {
+    width: 100%;
+}
+
+.loginMaincontainer .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #423B37;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.loginMaincontainer .divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #ccc;
+}
+
+.loginMaincontainer .divider span {
+    padding: 0 10px;
+}
+.loginMaincontainer label.form-check-label a{
+    color: #000 !important;
+}
+.loginMaincontainer .password-toggle {
+    position: relative;
+}
+
+.loginMaincontainer .password-toggle .password-eye {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #707070;
+}
+.loginMaincontainer input.form-control{
+    height: 54px;
+    border-color: #BBB;
+    /* margin-bottom: 4px; */
+}
+.loginMaincontainer .loginlinkMobile{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.loginMaincontainer .loginlinkMobile a{
+    /* text-decoration: none; */
+    color: #f68a40;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.loginMaincontainer .loginlinkDesktop{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    margin-top: 12px;
+    margin-right: 14px;
+    
+
+}
+.loginMaincontainer .loginlinkDesktop a{
+    /* text-decoration: none; */
+    color: #f68a40;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+/* .loginMaincontainer p.mainDescription{
+    font-size: 14px;
+    font-weight: 400;
+} */
+.loginMaincontainer div.logininputwidthmanage{
+    /* width: 390px; */
+    width: 440px;
+}
+.loginMaincontainer .logininputwidthmanage input{
+    font-size: 16px;
+    font-weight: 300;
+}
+.loginMaincontainer div a.forgotpasswordlink{
+    float: right;
+    margin-bottom: 28px;
+    text-decoration: none;
+    color: #000;
+    font-family: Athletics;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.OutfitFont{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+.AthleticsFont{
+    font-family: 'Athletics', sans-serif;
+    letter-spacing: 0.5px;
+
+}
+.loginMaincontainer .mainHeading{
+    color: #423B37;
+    font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 0px;
+/* margin-bottom: 20px; */
+margin-bottom: 31px;
+}
+
+/* @media (min-width: 510px) and (max-width: 767px) {
+    .loginMaincontainer div.mainLoginLeftSideImage{
+        background-size: cover !important;
+    }
+}     */
+
+.errors{
+    color: #DE002C;
+}
+ 
+input.form-control.error-border {
+  border: 1px solid #DE002C;
+}
+
+input.form-control.red-placeholder::placeholder {
+  color: #DE002C;
+}
+
+button[disabled] {
+  background-color:  #ccc5bd !important; 
+  color: white ;  
+  cursor: not-allowed;
+}
+
+

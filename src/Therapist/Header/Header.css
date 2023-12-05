@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Athletics';
+    src: url('../../../public/assets/fonts/AthleticsRegular.otf') format('otf'),
+         url('../../../public/assets/fonts/AthleticsRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  } 
+/* .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown .dropdown-item { */
+    /* border-top: 1px solid #E7E7E7 !important; */
+/* } */
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown {
+    position: absolute;
+    font-size: 0.9rem;
+    margin-top: 0;
+    /* right: -25px; */
+    right: 0px;
+    left: auto;
+    top: 65px;
+    border: 1px solid #a3a3a3;
+    width: 190px !important;
+
+}
+
+@media screen and (max-width: 991px) {
+    .navbar .navbar-brand-wrapper .brand-logo-mini img {
+        width: calc(96px - 43px);
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .navbar .navbar-brand-wrapper .navbar-brand img {
+        max-width: 100%;
+        height: 14px;
+        width: 54px;
+        margin: auto;
+        vertical-align: middle;
+        padding-left: 4px;
+    }
+  }
+  div.mainMenuBar{
+    padding: 0px;
+  }
+  .dropdownmenuitemtext{
+color: #423B37;
+font-size: 16px !important;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+padding-top: 8px;
+padding-bottom: 8px;
+padding-right: 18px !important;
+  }
+  .dropdownmenuitemtext:hover{
+    background-color: #FFE7CC;
+ 
+
+  }
+  .dropdownmenuitemtext img{
+    height: 22px !important;
+    width:22px !important;
+    border-radius: 0px !important;
+  }
+  .AthleticsFont {
+    font-family: 'Athletics', sans-serif;
+    letter-spacing: 0.5px;
+}
+.menuLinkUpsideDiv{
+    padding: 3px;
+}
+@media (min-width: 993px) {
+    .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown {
+        position: absolute;
+        font-size: 0.9rem;
+        margin-top: 0;
+        right: -25px !important;
+        /* right: 0px; */
+        left: auto;
+        top: 65px;
+        border: 1px solid #a3a3a3;
+        width: 190px !important;
+    
+    }
+    
+  }

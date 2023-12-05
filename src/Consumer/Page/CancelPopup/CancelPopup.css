@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: 'Athletics';
+    src: url('../../../../public/assets/fonts/AthleticsRegular.otf') format('otf'),
+         url('../../../../public/assets/fonts/AthleticsRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  } 
+.informationModalTitle{
+  color: var(--Soft-brown, #423B37);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 83.333% */
+}
+.informationModalDescription{
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.informationModalDescription bolp{
+  font-weight: 800 !important;
+}
+.AthleticsFont{
+    font-family: 'Athletics', sans-serif;
+    letter-spacing: 0.5px;
+  
+  }
+.contactuslink{
+color: #F68A40;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+text-decoration-line: underline;
+cursor: pointer; 
+}
+.contactuslink:hover{
+    color: #F68A40;
+ }
+  .custom-modal {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the modal horizontally */
+  }
+  .modal-body{
+    padding: 40px 50px 20px 50px !important;
+
+  }
+.mainmodalcontinuebutton{
+    border-radius: 8px;
+  background-color: #423B37;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  
+  }
+  
+.mainmodalcontinuebutton:focus{
+    background-color: #FFD8AB !important;
+    color: #000;
+  }
+.mainmodalcontinuebutton:hover{
+    background-color:#FFD8AB;
+    color: #000;
+  }
+  .mainClientInformationModal .modal-content{
+    /* width: 846px!important; */
+    width: 699px!important;
+  
+  }
+  .mainClientInformationModal{
+    display: flex !important;
+    justify-content: center !important;
+  }
+.CancelAppPopupTitle{
+color: var(--Soft-brown, #423B37);
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 125% */
+}
+.CancelAppPopupDescription{
+color: #000;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.cancelPopupBackButton{
+border-radius: 8px;
+background: #423B37;
+border: 2px solid #423B37 !important;
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+.cancelPopupBackButton:hover{
+  background: #423B37 !important;
+}
+.cancelPopupBackButton:focus{
+  background: #423B37 !important;
+}
+.CancelPopupcancelButton{
+background: #FFF;
+border-radius: 8px;
+border: 2px solid #423B37 !important;
+color: #423B37;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+.CancelPopupcancelButton:hover{
+  background: #FFF !important;
+  color: #423B37 !important;
+}
+.CancelPopupcancelButton:focus{
+  background: #FFF !important;
+  color: #423B37 !important;
+}

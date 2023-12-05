@@ -1,0 +1,1058 @@
+@font-face {
+    font-family: 'Athletics';
+    src: url('../../../public/assets/fonts/AthleticsRegular.otf') format('otf'),
+    url('../../../public/assets/fonts/AthleticsRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  } 
+  .mainCleintStartSection .OutfitFont{
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-family: 'Outfit', sans-serif;
+  }
+  .main-panel{
+      /* background-color: #fffaf0; */
+      background-color: #f8f0e7;
+  }
+  .mainCleintStartSection .mainbox{
+    /* padding: 50px; */
+    /* background-color: #fff; */
+    width: 846px;
+    /* height: 490px; */
+    /* box-shadow: 2px 2px 4px 2px #66666614; */
+  }
+  
+  @media (min-width: 768px) {
+    .mainCleintStartSection .mainbox {
+        padding: 50px;
+    }
+  }
+  /* .mainCleintStartSection .mainbox2{
+  
+      padding: 50px;
+      background-color: #fff;
+      width: 544px;
+      min-height: 337px;
+      height: auto;
+      box-shadow: 2px 2px 4px 2px #66666614;
+      margin-bottom: 100px;
+      border-top: 6px solid transparent;
+      border-image-slice: 1;
+  
+  } */
+  .mainCleintStartSection .mainbox h1{
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  color: #F68A40;
+  
+  }
+  .mainCleintStartSection .mainbox p{
+  
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+      
+      }
+   .mainCleintStartSection .mainSubmitButton{
+          background-color: #F68A40;
+          color: #fff;
+          font-weight: 700;
+          font-size: 20px;
+          border: none;
+          border-radius: 8px;
+          height: 58px;
+      }
+     .mainCleintStartSection .mainSubmitButton:hover{
+          background-color: #f68a40d6;
+          color: #fff;
+          font-weight: 700;
+          font-size: 20px;
+          border: none;
+          border-radius: 8px;
+      }
+     .mainCleintStartSection .mainSubmitButton:focus{
+          background-color: #f68a40d6;
+          color: #fff;
+          font-weight: 700;
+          font-size: 20px;
+          border: none;
+          border-radius: 8px;
+      } 
+  
+      .mainCleintStartSection .progressbar-wrapper {
+          /* background: #fff; */
+          width: 100%;
+          padding-top: 10px;
+          padding-bottom: 5px;
+    }
+    
+    .mainCleintStartSection .progressbar li {
+          list-style-type: none;
+          width: 30%;
+          /* width: 35%; */
+          float: left;
+          font-size: 14px;
+          font-weight: 500;
+          position: relative;
+          text-align: center;
+          text-transform: uppercase;
+          color: #606060;
+          line-height: 16.8px;
+          text-align: center;
+    }
+    .mainCleintStartSection .progressbar li:before {
+        width: 60px;
+        height: 60px;
+        content: "";
+        line-height: 60px;
+        border: 2px solid #7d7d7d;
+        display: block;
+        text-align: center;
+        margin: 0 auto 3px auto;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+    }
+    .mainCleintStartSection .progressbar li:after {
+         width: 100%;
+         height: 2px;
+         content: '';
+         position: absolute;
+         background-color: #7d7d7d;
+         top: 30px;
+         left: -50%;
+         z-index: 0;
+    }
+    .mainCleintStartSection .progressbar li:first-child:after {
+         content: none;
+    }
+    .mainCleintStartSection .progressbar li.active {
+        color: #000;
+        font-weight: bold;  
+    }
+    .mainCleintStartSection .progressbar li.active:before {
+        border-color: #F68A40;
+        background: green;
+     }
+     .mainCleintStartSection .progressbar li.active + li:after {
+        background-color: #F68A40;
+    }
+    .mainCleintStartSection .progressbar li.active:before {
+        background: #F68A40  no-repeat center center;
+        background-size: 60%;
+        
+    }
+    .mainCleintStartSection .progressbar li::before {
+        background: #DDDDDD  no-repeat center center;
+        background-size: 60%;
+        border: none;
+    }
+    .mainCleintStartSection .progressbar {
+        counter-reset: step;
+        padding: 0px !important;
+    }
+    .mainCleintStartSection .progressbar li:before {
+        content: counter(step);
+        counter-increment: step; 
+        font-size: 18px;
+    }
+    .mainCleintStartSection .progressbar li.active:before {
+      content: counter(step);
+      counter-increment: step; 
+      font-size: 18px;
+      color: #fff;
+  }
+    .mainCleintStartSection .progressbar li:before {
+      content: counter(step);
+      counter-increment: step; 
+      font-size: 18px;
+  }
+    .mainCleintStartSection .mainbox2 .backarrow{
+      height: 32px;
+      width: 32px;
+    }
+    .mainCleintStartSection .mainbox2 label{
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 30px;
+      color: #000;
+    }
+    .mainCleintStartSection .mainbox2 p.description{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-bottom: 30px;
+      color: #565656;
+      ;
+    }
+    .mainCleintStartSection .mainbox2 p.anyalltype{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-bottom: 30px;
+      color: #080717;
+    }
+    .mainCleintStartSection .mainbox2 p.description2{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-bottom: 0px;
+      color: #000;
+    }
+    .mainCleintStartSection select{
+      font-size: 16px;
+      font-weight: 400;
+      color: #727272;
+    }
+    .mainCleintStartSection .mainbox2 .text-muted{
+      font-size: 12px;
+      font-weight: 400;
+       color: #000;
+       line-height: 15.12px;
+    }
+    /* .mainCleintStartSection .checkboxDiv{
+        
+      margin-bottom: 0.5rem;
+  
+    } */
+  /* 
+   .mainCleintStartSection input[type="checkbox"] {
+      display: none;
+  } */
+  
+  /* Style for the custom button */
+  /* .mainCleintStartSection .checkbox-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #fff;
+      font-size: 14px !important;
+      color: #727272 !important;
+      font-weight: 400;
+      cursor: pointer;
+      width: 100%;
+      text-align: center;
+      border-radius: 8px;
+      border: 1px solid #92929261;
+  } */
+  
+  /* Style for the checked button */
+  /* .mainCleintStartSection input[type="checkbox"]:checked + label.checkbox-button {
+    background-color: #f68a40d6;
+    font-size: 14px !important;
+    color: #000 !important;
+  } */
+  
+  
+  .mainCleintStartSection .radioDiv{
+        
+    margin-bottom: 0.5rem;
+  
+  }
+  
+  .mainCleintStartSection .radioDiv input[type="radio"] {
+    display: none;
+  }
+  
+  /* Style for the custom button */
+  .mainCleintStartSection .radioDiv .radio-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    font-size: 14px !important;
+    color: #727272 !important;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #92929261;
+  
+  
+  }
+  .mainCleintStartSection .radioDiv .radio-button:hover {
+  
+  
+    background-color: #E5E5E5;
+  
+  }
+  
+  /* Style for the selected radio button */
+  .mainCleintStartSection .radioDiv input[type="radio"]:checked + label.radio-button {
+    background-color: #FFD8AB;
+    font-size: 14px !important;
+    color: #000 !important;
+  }
+  
+  
+  
+  
+  
+    .mainCleintStartSection .inputField {
+      position: relative;
+    }
+    
+    .mainCleintStartSection .inputField input {
+      padding: 8px 20px;
+      padding-top: 18px;
+      /* border: 1.8px solid rgba(107, 107, 107, 0.4); */
+      border-radius: 5px;
+      /* width: 50%; */
+      color: black;
+      font-size: 16px;
+    }
+    
+    .mainCleintStartSection .inputField input:focus {
+      border: 1.8px solid #6b6b6b;
+      outline: none;
+    }
+    
+    .mainCleintStartSection .inputField span {
+      pointer-events: none;
+      opacity: 0.5;
+      position: absolute;
+      padding-left: 20px !important;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      cursor: text;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    
+    .mainCleintStartSection .inputField input:focus+span,
+    .inputField input:not(:placeholder-shown)+span {
+      top: 7px;
+      -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+      transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+      padding-left: 12px !important;
+    }
+    
+    .mainCleintStartSection .inputField  .confirmpasswordfield:focus+span,
+    .inputField .confirmpasswordfield:not(:placeholder-shown)+span{
+      top: 7px;
+      -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+      transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+      padding-left: 4px !important;
+    }
+    .mainCleintStartSection .inputField  .createpasswordfield:focus+span,
+    .inputField .createpasswordfield:not(:placeholder-shown)+span{
+      top: 7px;
+      -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+      transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+      padding-left: 4px !important;
+    }
+    .mainCleintStartSection .inputField input,
+    .inputField span {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+      -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+  .mainCleintStartSection .inputField input{
+      font-size: 16px;
+      font-weight: 300;
+      height: 54px;
+  }
+  .mainCleintStartSection .mainAppointmentTitle{
+  font-size: 24px;
+  font-weight: 500;
+  }
+  .mainCleintStartSection .appointmentMainColumn{
+    padding: 20px;
+    background-color: #fff;
+  }
+  .mainCleintStartSection .appointmentTable tr th{
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #E9ECEF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+  .mainCleintStartSection .appointmentTable tr td{
+    font-size: 14px;
+    font-weight: 400;
+    /* white-space: normal; */
+    
+    }
+  
+    
+  /*    
+      .mainCleintStartSection{
+        min-height: 650px;
+      height: auto;
+      } */
+
+      @media (min-width: 769px) {
+      
+        .mainCleintStartSection{
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+
+
+      
+      }
+
+      @media (max-width: 769px) {
+      
+        .mainCleintStartSection .mainnextbutton{
+          border-radius: 8px;
+        background-color: #423B37;
+        border: none;
+        color: #FFF;
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 150% */
+        width: 100%;
+        padding: 14px 60px 14px 60px !important;
+        }
+
+      }
+      
+      .mainCleintStartSection .mainCleintStartSectionRow{
+        min-height: 650px;
+        height: auto;
+      }
+      .mainCleintStartSection h3.clientStartPageShortHeading{
+        color: #423B37;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 27px */
+       
+      }
+      .mainCleintStartSection h3.clientStartPageShortHeading1{
+        margin-top: 29px;
+        margin-bottom: 5px;
+      }
+      .mainCleintStartSection h3.clientStartPageShortHeading2{
+        margin-bottom: 5px;
+      }
+      .mainCleintStartSection p.clientStartPageShortDescription2{
+        margin-bottom: 10px;
+      }
+      .mainCleintStartSection h3.clientStartPageShortHeading3{
+        margin-bottom: 5px;
+      }
+
+      .mainCleintStartSection p.clientStartPageShortDescription3{
+        margin-bottom: 10px;
+      }
+
+      .mainCleintStartSection h3.clientStartPageShortHeading4{
+        margin-bottom: 5px;
+
+      }
+
+      .mainCleintStartSection p.clientStartPageShortDescription4{
+        margin-bottom: 19px;
+      }
+    
+      .mainCleintStartSection p.clientStartPageShortDescription{
+        color: #423B37;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+       
+        }
+        .mainCleintStartSection p.clientStartPageShortDescription1{
+          margin-bottom: 10px;
+        }
+
+      .mainCleintStartSection .transactionDetailButton{
+        font-size: 14px;
+        font-weight: 400;
+        background-color:#FFFAF0;
+        vertical-align: baseline;
+        
+      }
+      .mainCleintStartSection .transactionDetailButton img{
+        width: 18px;
+        height: 18px;
+        border-radius: 0px;
+      }
+      /* .mainCleintStartSection .appointmentDetailButton{
+       color: #2FCB82;
+       
+        
+      }
+  
+      .mainCleintStartSection .appointmentStartButton{
+        color:  #3F8FF2;
+         
+       }
+      .mainCleintStartSection .appointmentButton i{
+        font-size: 14px;
+        
+      } */
+      .mainCleintStartSection .tab-content{
+        border: none;
+      }
+      .mainCleintStartSection  .nav-tabs .nav-item .nav-link.active {
+        font-weight: 500;
+        color: #000;
+        border: 0;
+        background-color: transparent !important;
+        border-bottom: 3px solid #F68A40;
+        font-size: 16px;
+      }
+  
+      .mainCleintStartSection .nav-item:focus{
+        border: none !important;
+      }
+  
+      .mainCleintStartSection .nav-item:hover{
+        border: none !important;
+      }
+      .mainCleintStartSection ul.nav.nav-tabs{
+        border: none;
+      }
+      .mainCleintStartSection .nav-tabs .nav-item .nav-link {
+        font-weight: 400;
+        color: #666666;
+        background-color: transparent !important;
+        font-size: 16px;
+  
+       
+      }
+      .mainCleintStartSection .nav-link:hover{
+        border: none;
+  
+      }
+      .mainCleintStartSection .tab-content{
+        padding: 0px;
+        min-height: 500px;
+        height: auto;
+      }
+      .mainCleintStartSection .tab-pane{
+  
+        min-height: 500px;
+        height: auto;
+      } 
+  
+  
+  
+      .mainCleintStartSection .pagination .page-item.active .page-link{
+        background-color: #F68A40;
+        color: #fff;
+      }
+      .mainCleintStartSection .pagination .page-item .page-link:hover{
+        background-color: #F68A40;
+        color: #fff;
+      }
+      .mainCleintStartSection .table-responsive{
+        min-height: 500px;
+        height: auto;
+      }
+      @media (max-width: 768px) {
+  .mainCleintStartSection .appointmentDetailButton{
+    margin-bottom: 10px !important;
+  }
+  
+  .mainCleintStartSection .appointmentTable tr td{
+    padding-right: 50px;
+  }
+  .mainCleintStartSection .appointmentTable tr td:nth-child(3) {
+        
+      
+    white-space: normal;
+    
+  
+  }
+  .mainCleintStartSection .nav-tabs .nav-item .nav-link {
+  font-size: 12px;
+  }
+  .mainCleintStartSection .nav-tabs .nav-item .nav-link.active {
+    font-size: 12px;
+    }
+      }
+      .mainCleintStartSection  .heightByContent{
+    min-height: 100vh; 
+    height: auto;
+   }
+  
+   .mainCleintStartSection .button-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mainCleintStartSection .button-image {
+    margin-right: 5px; /* Adjust the margin as needed */
+  }
+  
+  .mainCleintStartSection .button-text {
+    font-weight: 500; /* Apply your font-weight here */
+    color: #F68A40
+    ; /* Apply your text color here */
+    /* Add other styling properties as needed */
+  }
+  .mainCleintStartSection .datepickerButton{
+    border: 1px solid #D3D3D3;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+    width:auto;
+    font-size: 14px;
+    font-weight: 400;
+   border-radius: 4px;
+  }
+  
+  /* profile image css for profile update */
+  div.editProfileImageSection {
+    text-align: -webkit-center !important;
+    text-align: center;
+    padding: 70px;
+    /* background: #FFFAF0; */
+  }
+  .editProfileImageSection div.profileImageTitle{
+  
+    text-align: center;
+  }
+  
+  
+  
+  
+  .editProfileImageSection .profileImageFormGroup{
+    text-align: center;
+    text-align: -webkit-center;
+  }
+  
+  
+  .editProfileImageSection .file-upload {
+    display: none;
+  }
+  
+  .editProfileImageSection .profileName{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  
+  }
+  .editProfileImageSection .editProfileName {
+    width: 20px;
+    height: 20px; 
+    margin-left: 5px; 
+  }
+  .circle {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    width: 137px;
+  }
+  
+  .profile_pic {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .plus-icon-label {
+    position: absolute;
+    bottom: -5px;
+    right: 6px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 0 0 10px 0;
+  }
+  
+  /* Style the plus icon */
+  .plus-icon-label img {
+    width: 32px; /* Adjust the size as needed */
+    height: 32px; /* Adjust the size as needed */
+  }
+  
+  .file-upload {
+    display: none; /* Hide the file input */
+  }
+  
+  .editIconImage{
+    height: 32px !important;
+    width: 32px !important;
+    cursor: pointer;
+  }
+  /* profile image css for profile update */
+  
+  /* profile Bio Section css */
+  .profileEditingContainer{
+  max-width: 900px;
+  width: auto;
+  box-shadow: 2px 2px 2px 2px #6666660F;
+  padding: 30px;
+  margin-top: 18px;
+  border-radius: 8px;
+  
+  }
+  .profileEditingContainer .titleLeft h3{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .profileEditingContainer .titleLeft h3{
+      font-size: 16px !important;
+  }
+  .visibilityToggleClass{
+    font-size: 16px;
+  }
+  }
+  .profileEditingContainer p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #7A7A7A;
+  margin-top: 16px;
+  }
+  .profileEditingContainer .profileEditingContainerRow{
+    border-bottom: 1px solid #CDD3D4
+  }
+  .editImageRight img{
+    float: right;
+  }
+  
+  /* profile Bio Section css end */
+  
+  
+  /* profile sexualorientation css start */
+  .sexualOrientationContainer input.form-check-input{
+    display: none;
+  }
+  .sexualOrientationContainer i{
+    font-size: 24px;
+    margin-top: 8px;
+    color: #F68A40;
+    cursor: pointer;
+  }
+  /* profile sexualorientation css end */
+  
+  
+  /* tag section css start */
+  .tagMainContainer p{
+    background-color: #F8F8FF;
+    padding-bottom: 5px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    text-align: center;
+    padding-top: 5px;
+    color: #080717;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .tagMainContainer span.tagSpan{
+  
+    background-color: #F8F8FF;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-top: 5px;
+    color: #080717;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tagMainContainer .maintags{
+    margin-right: 20px;
+    margin-bottom: 10px;
+  } 
+  
+  
+  @media screen and (max-width: 768px) {
+  
+    .tagMainContainer p{
+      padding: 0px !important;
+       padding-right: 5px;
+       padding-left: 5px;
+       font-size: 14px;
+    }
+    .tagsRow {
+      text-align: center;
+      justify-content: center;
+    }
+  
+   
+  }
+  /* tag section css end */
+  
+  
+  /* common css for all models start*/
+  .submitmodelbutton{
+    background-color: #F68A40;
+  }
+  .submitmodelbutton:hover{
+    background-color: #FFE7CC
+    ;
+  }
+  .OutfitFont{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+  }
+  .AthleticsFont{
+    font-family: 'Athletics', sans-serif;
+    letter-spacing: 0.5px;
+  
+  }
+  /* common css end for all models */
+  /* css start for profile name model */
+  
+  
+  /* css end for profile name model */
+  /* new css according new dashboard design */
+  
+  .boxSectionNew {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    max-width: 820px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  .profileInfo {
+    text-align: left;
+    width: 100%;
+  }
+  .profileinforRow{
+    width: 100%;
+  
+  }
+  .mainRow{
+    width: 100%;
+  }
+  .heightByContent{
+    min-height: 100vh; 
+    height: auto;
+  }
+  .mainCleintStartSection .profileName{
+    color: #423B37;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .mainCleintStartSection .profileType{
+    color: #565656;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .mainCleintStartSection .roundedProfileImage{
+    height: 86px;
+    width: 86px;
+  }
+  .mainCleintStartSection .edit-icon{
+    margin-top: -20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .mainCleintStartSection .imageSectionContent{
+    background-color: #FFD8AB;
+    padding: 5px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #505050;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  }
+  .mainCleintStartSection .mainBox2RowUp{
+    width: 100%;
+  }
+  .mainCleintStartSection .mainBox2ColMd12{
+    width: 100%;
+  
+  }
+  .mainCleintStartSection .mainbox2{
+    width: 100%;
+    padding: 20px 140px 20px 140px;
+    text-align: center;
+  }
+  .mainCleintStartSection .boxsectionNew2{
+    margin-bottom: 80px;
+    /* border-top: 12px solid;
+    border-image: linear-gradient(to right, #FFD8AB 60%, #D1C6B9 20%) 1;
+    border-image-slice: 1; */
+    padding: 66px 153px 88px 153px !important;
+  }
+  .mainCleintStartSection .mainnextbutton{
+    border-radius: 8px;
+  background-color: #423B37;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+  width: 100%;
+  padding: 14px 160px 14px 160px;
+  }
+  
+  .mainCleintStartSection .mainnextbutton:focus{
+    background-color: #f68a40 !important;
+  }
+  .mainCleintStartSection .mainnextbutton:hover{
+    background-color:#f68a40;
+  }
+  .mainCleintStartSection .maintitlemain{
+    color: #423B37;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 83.333% */
+  }
+  .mainCleintStartSection .talaThriveInformation{
+    color: #423B37;
+  font-family: Athletics;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+  }
+  @media screen and (max-width: 768px) {
+  
+    .mainCleintStartSection .mainbox2{
+      padding:10px 5px 10px 5px !important;
+      
+    }
+    .mainCleintStartSection .boxSectionNew{
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+    }
+  .mainCleintStartSection .talaThriveInformation{
+    text-align: center !important;
+    justify-content: center;
+    
+  }
+   
+  }
+  /* Add your custom styles here */
+  
+  /* Center align text at extra small and small screens */
+  
+  .mainCleintStartSection .mainContainerHeading{
+    color: #423B37;
+    font-family: Athletics;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .mainCleintStartSection .mainQuestion{
+    color: #423B37;
+  font-family: Athletics;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  }
+  .mainCleintStartSection .mainCountrySelectBox{
+    height: 54px;
+  }
+  .mainDOBInput{
+    height: 54px;
+    cursor: pointer;
+  }
+  .mainQuestionContainer {
+    position: relative;
+  }
+  
+  .arrow-icon.goBackIcon {
+    position: absolute;
+    left: -25px; /* Adjust the left position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000; /* Change the color as needed */
+    margin-left: -80px;
+    margin-top: -40px;
+  }
+  
+  .checkbox-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    font-size: 14px !important;
+    color: #727272 !important;
+    font-weight: 400;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #92929261;
+    height: 45px;
+    display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  /* Style for the checked button */
+   input[type="checkbox"]:checked + label.checkbox-button {
+  background-color: #f68a40d6;
+  font-size: 14px !important;
+  color: #000 !important;
+  }
+  .checkbox-button.selected{
+    border-radius: 8px;
+    background: var(--primary-40, #FFD8AB);
+    color: #000 !important;
+  }
+  .checkbox-button:hover{
+    background: var(--primary-40, #FFD8AB);
+    color: #000 !important;
+  } 
+  .checkboxDiv{
+        
+    margin-bottom: 20px;
+  
+  }
+  .viewLessMore{
+    border-radius: 8px;
+  background: #E5E5E5;
+  height: 45px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #423B37 !important;
+  }
+  .mainQuestionSpan{
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .mainQuestion2{
+    margin-bottom: 0px !important;
+  }
+  
+  button[disabled] {
+    background-color:  #ccc5bd !important; 
+    color: white ;  
+    cursor: not-allowed;
+  }
+  

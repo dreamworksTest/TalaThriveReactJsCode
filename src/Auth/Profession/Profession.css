@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'Athletics';
+  src: url('../../../public/assets/fonts/AthleticsRegular.otf') format('otf'),
+       url('../../../public/assets/fonts/AthleticsRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+  div.signup1Maincontainer{
+    background-color: #f8f0e7;
+    min-height: 100vh;
+    height:auto;
+    background-image: url('../../../public/assets/images/mainBackgroundImage/mainbackgroundImage.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+  }
+  div.signup1MaincontainerRow{
+    min-height: 100vh;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .mainRightDiv {
+      padding-top: 0px !important; /* Add your padding for medium screens here */
+    }
+  }
+
+  
+  
+  /* CSS for large screens (e.g., desktops and laptops) */
+  @media (min-width: 992px) {
+    .mainRightDiv {
+        padding-top: 0px !important;
+        padding-right: 40px;
+        padding-left: 40px;
+      /* Your styles for large screens here */
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 1100px) {
+    .signup1Maincontainer div.mainSignupLeftSideImage{ 
+      background-size: cover !important;
+      /* Adjust other background properties if needed */
+    }
+  }
+  @media (max-width: 768px) {
+    /* Your CSS styles here */
+    .signup1Maincontainer div.mainSignupLeftSideImage{ 
+        background-size: cover !important;
+        min-height: 800px; 
+        margin-bottom: 20px;
+        height: auto;
+        /* Adjust other background properties if needed */
+      }
+     .signup1Maincontainer .nav-tabs{
+        justify-content: center !important;
+        text-align: center !important;  
+      }
+  }
+
+  /* .signup1Maincontainer div.tab-pane{
+    background-color: #fff;
+    border-radius: 3px;
+  } */
+  .signup1Maincontainer div.mainSignupLeftSideImage{
+            background: url('../../../public/assets/images/signupImages/signupmainimage.jpg'); 
+            background-size: contain; 
+            background-repeat: no-repeat;
+
+        }
+       .signup1Maincontainer div.signupform1{
+            padding: 0px;
+            margin-bottom: 0px;
+
+        }
+       .signup1Maincontainer .full-height {
+            height: 100vh;
+        }
+
+        .signup1Maincontainer .bordered-list {
+            /* border: 1px solid #ccc; */
+            /* padding: 20px; */
+        margin-bottom: 33px;
+          }
+    
+    .signup1Maincontainer .tabheading{
+        /* font-size: 20px;
+        font-weight: 500; */
+        color: #423B37;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 21px;
+            }    
+
+    .signup1Maincontainer li.nav-item
+        {
+            min-width: 150px;
+            text-align: center;
+            width: auto;
+        }
+   .signup1Maincontainer .nav.nav-tabs{
+      /* margin-bottom: 20px; */
+      margin-bottom: 29px;  
+      border-bottom: none;
+    }
+       .signup1Maincontainer .nav-link {
+            background-color: #fff !important;
+            border: none;
+            border-radius: 50px !important; 
+            color: #423B37 !important;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; /* 187.5% */
+          }
+
+        .signup1Maincontainer .nav-link.active {
+            color: #0a0a0a !important;
+            /* border-color: orange !important; */
+            border: none;
+            background-color: #FFD8AB !important;
+        }
+        .signup1Maincontainer .firstProfession{
+          border-top-left-radius: 50px;
+          border-bottom-left-radius: 50px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background-color: #fff;
+          padding-left: 10px;
+           
+        } .signup1Maincontainer .secondProfession{
+          border-top-right-radius: 50px;
+          border-bottom-right-radius: 50px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background-color: #fff;
+          padding-right: 10px;
+        }
+        .signup1Maincontainer button.signupnextbutton1{
+            width: 100%;
+            background-color: #423B37;
+            color: #fff;
+           font-weight: 700;
+           border: none !important;
+           font-size: 20px;
+           font-weight: 700;
+           height :48px;
+           display: flex;
+           justify-content: center;
+           text-align: center;
+           align-items: center;
+
+        }
+        .signup1Maincontainer button.signupnextbutton1:hover{
+           background-color: #f68a40;
+        
+        }
+        .signup1Maincontainer button.signupnextbutton1:focus{
+            background-color: #f68a40 !important;
+         
+         }
+
+         .signup1Maincontainer .haveAnAccount{
+            font-size: 14px;
+            font-weight: 400;
+         }
+         .signup1Maincontainer .haveAnAccount .loginlink{
+            font-size: 14px;
+            font-weight: 700;
+         }
+       .signup1Maincontainer p.dotted {
+    text-align: left;
+    padding-left: 20px; /* Adjust this value to control the space between the dot and text */
+    position: relative;
+    /* font-size: 12px; */
+    font-weight: 400; 
+    color: #423B37;
+    font-size: 14px;
+    font-style: normal;
+
+}
+.signup1Maincontainer p.dotted.removeMargin{
+    margin-bottom: 6px;
+}
+
+.signup1Maincontainer p.dotted::before {
+    content: "•"; /* You can use a different character if needed */
+    color: #000000; /* Dot color */
+    font-size: 18px; /* Adjust this value as needed */
+    position: absolute;
+    left: 0;
+}
+.signup1Maincontainer a.loginlink{
+    color: #f68a40;
+    text-decoration: none;
+}
+.signup1Maincontainer p.mainDescription{
+    color: var(--Soft-brown, #423B37);
+    font-family: Athletics;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5px;
+    margin-bottom: 21px;
+}
+.signup1Maincontainer .mainHeading{
+   
+    color: #423B37;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+}
+.AthleticsFont{
+  font-family: 'Athletics', sans-serif;
+  letter-spacing: 0.5px;
+
+}
+.OutfitFont{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+/* @media(min-width: 510px) and (max-width: 767px) {
+  
+  .signup1Maincontainer div.mainSignupLeftSideImage{
+    background-size: cover !important;
+}
+} */
+
+/* shubham new code */
+div .professiontab{
+    padding: 0px;
+    border: none;
+  }
+
+  .signup1Maincontainer .loginlinkMobile{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.signup1Maincontainer .loginlinkMobile a{
+    /* text-decoration: none; */
+    color: #f68a40;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.signup1Maincontainer .loginlinkDesktop{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    margin-top: 12px;
+    margin-right: 14px;
+
+}
+.signup1Maincontainer .loginlinkDesktop a{
+    /* text-decoration: none; */
+    color: #f68a40;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}

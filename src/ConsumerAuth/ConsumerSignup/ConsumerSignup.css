@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'Athletics';
+  src: url('../../../public/assets/fonts/AthleticsRegular.otf') format('otf'),
+       url('../../../public/assets/fonts/AthleticsRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+
+@media (max-width: 1101px) {
+  div.signup2Maincontainer {
+    background-image: url('../../../public/assets/images/mainBackgroundImage/mainbackgroundImage.png') !important;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+  }
+}
+
+div.signup2Maincontainer{
+    background-color: #f8f0e7;
+    min-height: 100vh;
+    height:auto;
+    background-image: none !important;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+  }
+
+  
+  div.signup2Maincontainer div.signup2MaincontainerRow{
+   
+        min-height: 100vh;
+        height: auto;
+      
+  }
+
+  @media (min-width: 768px) {
+    .mainRightDiv {
+      padding-top: 0px !important; /* Add your padding for medium screens here */
+    }
+  }
+
+  
+  
+  /* CSS for large screens (e.g., desktops and laptops) */
+  @media (min-width: 992px) {
+    .mainRightDiv {
+        padding-top: 0px !important;
+        padding-right: 40px;
+        padding-left: 40px;
+      /* Your styles for large screens here */
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 1100px) {
+    .signup2Maincontainer div.mainSignupLeftSideImage{ 
+      background-size: cover !important;
+      /* Adjust other background properties if needed */
+    }
+  }
+  @media (max-width: 768px) {
+    /* Your CSS styles here */
+    .signup2Maincontainer div.mainSignupLeftSideImage{ 
+        background-size: cover !important;
+        min-height: 800px;
+        height: auto; 
+        margin-bottom: 20px;
+        /* Adjust other background properties if needed */
+      }
+  }
+  .signup2Maincontainer div.tab-pane{
+    background-color: #fff;
+    border-radius: 3px;
+  }
+  .signup2Maincontainer div.mainSignupLeftSideImage{
+            background: url('../../../public/assets/images/signupImages/signupConsumermainimage.jpg'); 
+            background-size: contain; 
+            background-repeat: no-repeat;
+
+        }
+       .signup2Maincontainer div.signupform2{
+            padding: 0px;
+        }
+       .signup2Maincontainer .full-height {
+            height: 100vh;
+        }
+
+        .signup2MainContainer .bordered-list {
+            border: 1px solid #ccc;
+            padding: 20px;
+            /* border-radius: 10px; */
+        }
+
+ 
+        .signup2Maincontainer button.signupmainButton{
+            width: 100%;
+            background-color: #423B37;
+            color: #fff;
+            font-size: 18px;
+           font-weight: 700;
+           border: none !important;
+           height :48px;
+           font-style: normal;
+           line-height: 30px; 
+           display: flex;
+           justify-content: center;
+           text-align: center;
+           align-items: center;
+        }
+        .signup2Maincontainer button.signupmainButton:hover{
+          background-color: #f68a40;
+        
+        }
+        .signup2Maincontainer button.signupmainButton:focus{
+          background-color: #f68a40 !important;
+         
+         }
+         .signup2Maincontainer .form-check-input:checked{
+          background-color: #423B37 !important;
+          border-color: #423B37 !important;
+         }
+        
+      
+         .signup2Maincontainer .googleButton{
+            font-size: 21.354px;
+            font-weight: 400;
+            border: none !important;
+            color: #514F4F;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background-color: #fff !important;
+            height :54px;
+            font-style: normal;
+            line-height: normal;
+            margin-bottom: 32px;
+         }
+         .signup2Maincontainer .googleButton:hover {
+            background-color: #558ae5 !important;
+        }
+         .signup2Maincontainer .googleButton span{
+            background-color: #fff;
+            padding: 5px 5px 5px 5px !important;
+            margin-right: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 400;
+         }
+ 
+.signup2Maincontainer a.loginlink{
+    color: #f68a40;
+    text-decoration: none;
+}
+
+.signup2Maincontainer .custom-label {
+    text-align: left;
+}
+
+.signup2Maincontainer .full-width-button {
+    width: 100%;
+}
+
+.signup2Maincontainer .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--Soft-brown, #423B37);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 41px;
+}
+
+.signup2Maincontainer .divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #ccc;
+}
+
+.signup2Maincontainer .divider span {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.signup2Maincontainer label.form-check-label{
+
+
+font-size: 14px;
+font-weight: 400;
+}
+.signup2Maincontainer label.form-check-label a{
+    color: #000 !important;
+  
+}
+.signup2Maincontainer .password-toggle {
+    position: relative;
+}
+
+.signup2Maincontainer .password-toggle .password-eye {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #707070;
+}
+.signup2Maincontainer input.form-control{
+    height: 60px;
+    padding: 10px;
+    border-color: #BBB;
+}
+/* .signup2Maincontainer .loginlinkMobile{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.signup2Maincontainer .loginlinkMobile a{
+    text-decoration: none;
+    color: #f68a40;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.signup2Maincontainer .loginlinkDesktop{
+    font-size: 14px;
+    font-weight: 400;
+}
+.signup2Maincontainer .loginlinkDesktop a{
+    text-decoration: none;
+    color: #f68a40;
+    font-size: 14px;
+    font-weight: 600;
+
+} */
+
+.signup2Maincontainer .loginlinkMobile{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.signup2Maincontainer .loginlinkMobile a{
+  /* text-decoration: none; */
+  color: #f68a40;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+.signup2Maincontainer .loginlinkDesktop{
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #fff;
+  margin-top: 12px;
+    margin-right: 14px;
+  
+
+}
+.signup2Maincontainer .loginlinkDesktop a{
+  /* text-decoration: none; */
+  color: #f68a40;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.signup2Maincontainer p.mainDescription{
+    /* font-size: 14px;
+    font-weight: 400; */
+    color: var(--Soft-brown, #423B37);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5px;
+}
+.OutfitFont{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+.AthleticsFont{
+  font-family: 'Athletics', sans-serif;
+  letter-spacing: 0.5px;
+
+}
+.signup2Maincontainer h2.mainHeading{
+    /* font-size: 32px;
+    font-weight: 600; */
+color: var(--Soft-brown, #423B37);
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0px;
+}
+
+/* @media (min-width: 510px) and (max-width: 767px) {
+    .signup2Maincontainer div.mainSignupLeftSideImage{
+        background-size: cover !important;
+    }
+}     */
+
+/* dummy code */
+.signup2Maincontainer .inputField {
+    position: relative;
+    margin-top: 5px;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .signup2Maincontainer .inputField input {
+    padding: 8px 0px;
+    padding-top: 18px;
+    /* border: 1.8px solid rgba(107, 107, 107, 0.4); */
+    border-radius: 5px;
+    /* width: 50%; */
+    color: black;
+  }
+  
+  .signup2Maincontainer .inputField input:focus {
+    border: 1.8px solid #F9864E;
+    outline: none;
+  }
+  
+  .signup2Maincontainer .inputField span {
+    pointer-events: none;
+    opacity: 0.5;
+    position: absolute;
+    padding-left: 20px;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: text;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .signup2Maincontainer .inputField input:focus+span,
+  .inputField input:not(:placeholder-shown)+span {
+    top: 2px;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    padding-left: 16px;
+  }
+  
+  .signup2MainContainer .inputField  .preferredNameField:focus+span{
+    top: 5px !important;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    padding-left: 5px !important;
+  }
+  .signup2Maincontainer .inputField .preferredNameField span{
+    padding-left: 0px !important;
+  }
+  .signup2MainContainer .inputField  .preferredNameField:focus+span,
+  .inputField .preferredNameField:not(:placeholder-shown)+span{
+
+    top: 5px !important;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    padding-left: 5px !important;
+  }
+  .signup2Maincontainer .inputField  .confirmpasswordfield:focus+span,
+  .inputField .confirmpasswordfield:not(:placeholder-shown)+span{
+    top: 7px;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    padding-left: 4px !important;
+  }
+  .signup2Maincontainer .inputField  .createpasswordfield:focus+span,
+  .inputField .createpasswordfield:not(:placeholder-shown)+span{
+    top: 4px;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    padding-left: 4px !important;
+  }
+  .signup2Maincontainer .inputField input,
+  .inputField span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+.signup2Maincontainer .inputField input{
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 17px;
+    /* height: 48px; */
+    height: 54px;
+
+}
+
+ .confirmPasswordUpsideDiv{
+  margin-bottom: 38px !important;
+ }
+.formcheckmargin{
+  margin-bottom: 27px !important;
+  text-align: left;
+}
+/* dummy code */
+
+.errors{
+    color: #DE002C !important;
+}
+ 
+input.form-control.error-border {
+  border: 1px solid #DE002C !important;
+}
+
+.red-placeholder {
+  color: #ee0533 !important;
+}
+
+
+.checkbox{
+height: 20px;
+width: 30px;
+}
+
+.form-check-input.error-checkbox{
+     border: 1px solid #DE002C;
+}
+
+button[disabled] {
+  background-color:  #ccc5bd !important; 
+  color: white ;  
+  cursor: not-allowed;
+}

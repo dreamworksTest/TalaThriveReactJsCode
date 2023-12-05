@@ -1,0 +1,526 @@
+.transactionSection .OutfitFont{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+.main-panel{
+    background-color: #fffaf0;
+}
+.transactionSection .mainbox{
+  /* padding: 50px; */
+  /* background-color: #fff; */
+  width: 846px;
+  /* height: 490px; */
+  /* box-shadow: 2px 2px 4px 2px #66666614; */
+}
+
+@media (min-width: 768px) {
+  .transactionSection .mainbox {
+      padding: 50px;
+  }
+}
+.transactionSection .mainbox2{
+
+    padding: 50px;
+    background-color: #fff;
+    width: 544px;
+    min-height: 337px;
+    height: auto;
+    box-shadow: 2px 2px 4px 2px #66666614;
+    margin-bottom: 100px;
+    border-top: 6px solid transparent;
+    /* border-image: linear-gradient(to right, #F68A40 70%, #FFE7CC 20%) 1; */
+    border-image-slice: 1;
+
+}
+.transactionSection .mainbox h1{
+font-size: 35px;
+font-weight: 400;
+margin-bottom: 35px;
+color: #F68A40;
+
+}
+.transactionSection .mainbox p{
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+    }
+ .transactionSection .mainSubmitButton{
+        background-color: #F68A40;
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        height: 58px;
+    }
+   .transactionSection .mainSubmitButton:hover{
+        background-color: #f68a40d6;
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+   .transactionSection .mainSubmitButton:focus{
+        background-color: #f68a40d6;
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+    } 
+
+    .transactionSection .progressbar-wrapper {
+        /* background: #fff; */
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+  }
+  
+  .transactionSection .progressbar li {
+        list-style-type: none;
+        width: 30%;
+        /* width: 35%; */
+        float: left;
+        font-size: 14px;
+        font-weight: 500;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        color: #606060;
+        line-height: 16.8px;
+        text-align: center;
+  }
+  .transactionSection .progressbar li:before {
+      width: 60px;
+      height: 60px;
+      content: "";
+      line-height: 60px;
+      border: 2px solid #7d7d7d;
+      display: block;
+      text-align: center;
+      margin: 0 auto 3px auto;
+      border-radius: 50%;
+      position: relative;
+      z-index: 2;
+      background-color: #fff;
+  }
+  .transactionSection .progressbar li:after {
+       width: 100%;
+       height: 2px;
+       content: '';
+       position: absolute;
+       background-color: #7d7d7d;
+       top: 30px;
+       left: -50%;
+       z-index: 0;
+  }
+  .transactionSection .progressbar li:first-child:after {
+       content: none;
+  }
+  .transactionSection .progressbar li.active {
+      color: #000;
+      font-weight: bold;  
+  }
+  .transactionSection .progressbar li.active:before {
+      border-color: #F68A40;
+      background: green;
+   }
+   .transactionSection .progressbar li.active + li:after {
+      background-color: #F68A40;
+  }
+  .transactionSection .progressbar li.active:before {
+      background: #F68A40  no-repeat center center;
+      background-size: 60%;
+      
+  }
+  .transactionSection .progressbar li::before {
+      background: #DDDDDD  no-repeat center center;
+      background-size: 60%;
+      border: none;
+  }
+  .transactionSection .progressbar {
+      counter-reset: step;
+      padding: 0px !important;
+  }
+  .transactionSection .progressbar li:before {
+      content: counter(step);
+      counter-increment: step; 
+      font-size: 18px;
+  }
+  .transactionSection .progressbar li.active:before {
+    content: counter(step);
+    counter-increment: step; 
+    font-size: 18px;
+    color: #fff;
+}
+  .transactionSection .progressbar li:before {
+    content: counter(step);
+    counter-increment: step; 
+    font-size: 18px;
+}
+  .transactionSection .mainbox2 .backarrow{
+    height: 32px;
+    width: 32px;
+  }
+  .transactionSection .mainbox2 label{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+  }
+  .transactionSection .mainbox2 p.description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  .transactionSection .mainbox2 p.anyalltype{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: #080717;
+  }
+  .transactionSection .mainbox2 p.description2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0px;
+    color: #000;
+  }
+  .transactionSection select{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+  }
+  .transactionSection .mainbox2 .text-muted{
+    font-size: 12px;
+    font-weight: 400;
+     color: #000;
+     line-height: 15.12px;
+  }
+  /* .transactionSection .checkboxDiv{
+      
+    margin-bottom: 0.5rem;
+
+  } */
+/* 
+ .transactionSection input[type="checkbox"] {
+    display: none;
+} */
+
+/* Style for the custom button */
+/* .transactionSection .checkbox-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    font-size: 14px !important;
+    color: #727272 !important;
+    font-weight: 400;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #92929261;
+} */
+
+/* Style for the checked button */
+/* .transactionSection input[type="checkbox"]:checked + label.checkbox-button {
+  background-color: #f68a40d6;
+  font-size: 14px !important;
+  color: #000 !important;
+} */
+
+
+.transactionSection .radioDiv{
+      
+  margin-bottom: 0.5rem;
+
+}
+
+.transactionSection .radioDiv input[type="radio"] {
+  display: none;
+}
+
+/* Style for the custom button */
+.transactionSection .radioDiv .radio-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  font-size: 14px !important;
+  color: #727272 !important;
+  font-weight: 400;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #92929261;
+}
+
+/* Style for the selected radio button */
+.transactionSection .radioDiv input[type="radio"]:checked + label.radio-button {
+  background-color: #f68a40d6;
+  font-size: 14px !important;
+  color: #000 !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainbox2{
+      padding: 20px !important;
+    }
+  
+   
+  }
+
+
+
+
+  .transactionSection .inputField {
+    position: relative;
+  }
+  
+  .transactionSection .inputField input {
+    padding: 8px 20px;
+    padding-top: 18px;
+    /* border: 1.8px solid rgba(107, 107, 107, 0.4); */
+    border-radius: 5px;
+    /* width: 50%; */
+    color: black;
+    font-size: 16px;
+  }
+  
+  .transactionSection .inputField input:focus {
+    border: 1.8px solid #6b6b6b;
+    outline: none;
+  }
+  
+  .transactionSection .inputField span {
+    pointer-events: none;
+    opacity: 0.5;
+    position: absolute;
+    padding-left: 20px !important;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: text;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .transactionSection .inputField input:focus+span,
+  .inputField input:not(:placeholder-shown)+span {
+    top: 7px;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    padding-left: 12px !important;
+  }
+  
+  .transactionSection .inputField  .confirmpasswordfield:focus+span,
+  .inputField .confirmpasswordfield:not(:placeholder-shown)+span{
+    top: 7px;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    padding-left: 4px !important;
+  }
+  .transactionSection .inputField  .createpasswordfield:focus+span,
+  .inputField .createpasswordfield:not(:placeholder-shown)+span{
+    top: 7px;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    padding-left: 4px !important;
+  }
+  .transactionSection .inputField input,
+  .inputField span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+.transactionSection .inputField input{
+    font-size: 16px;
+    font-weight: 300;
+    height: 54px;
+}
+.transactionSection .mainAppointmentTitle{
+font-size: 24px;
+font-weight: 500;
+}
+.transactionSection .appointmentMainColumn{
+  padding: 20px;
+  background-color: #fff;
+}
+.transactionSection .appointmentTable tr th{
+font-size: 14px;
+font-weight: 400;
+background-color: #E9ECEF;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.transactionSection .appointmentTable tr td{
+  font-size: 14px;
+  font-weight: 400;
+  /* white-space: normal; */
+  
+  }
+
+  
+   
+    .transactionSection{
+      min-height: 650px;
+    height: auto;
+    }
+    .transactionSection .transactionSectionRow{
+      min-height: 650px;
+      height: auto;
+    }
+
+    .transactionSection .transactionDetailButton{
+      font-size: 14px;
+      font-weight: 400;
+      background-color:#FFFAF0;
+      vertical-align: baseline;
+      
+    }
+    .transactionSection .transactionDetailButton img{
+      width: 18px;
+      height: 18px;
+      border-radius: 0px;
+    }
+    /* .transactionSection .appointmentDetailButton{
+     color: #2FCB82;
+     
+      
+    }
+
+    .transactionSection .appointmentStartButton{
+      color:  #3F8FF2;
+       
+     }
+    .transactionSection .appointmentButton i{
+      font-size: 14px;
+      
+    } */
+    .transactionSection .tab-content{
+      border: none;
+    }
+    .transactionSection  .nav-tabs .nav-item .nav-link.active {
+      font-weight: 500;
+      color: #000;
+      border: 0;
+      background-color: transparent !important;
+      border-bottom: 3px solid #F68A40;
+      font-size: 16px;
+    }
+
+    .transactionSection .nav-item:focus{
+      border: none !important;
+    }
+
+    .transactionSection .nav-item:hover{
+      border: none !important;
+    }
+    .transactionSection ul.nav.nav-tabs{
+      border: none;
+    }
+    .transactionSection .nav-tabs .nav-item .nav-link {
+      font-weight: 400;
+      color: #666666;
+      background-color: transparent !important;
+      font-size: 16px;
+
+     
+    }
+    .transactionSection .nav-link:hover{
+      border: none;
+
+    }
+    .transactionSection .tab-content{
+      padding: 0px;
+      min-height: 500px;
+      height: auto;
+    }
+    .transactionSection .tab-pane{
+
+      min-height: 500px;
+      height: auto;
+    } 
+
+
+
+    .transactionSection .pagination .page-item.active .page-link{
+      background-color: #F68A40;
+      color: #fff;
+    }
+    .transactionSection .pagination .page-item .page-link:hover{
+      background-color: #F68A40;
+      color: #fff;
+    }
+    .transactionSection .table-responsive{
+      min-height: 500px;
+      height: auto;
+    }
+    @media (max-width: 768px) {
+.transactionSection .appointmentDetailButton{
+  margin-bottom: 10px !important;
+}
+
+.transactionSection .appointmentTable tr td{
+  padding-right: 50px;
+}
+.transactionSection .appointmentTable tr td:nth-child(3) {
+      
+    
+  white-space: normal;
+  
+
+}
+.transactionSection .nav-tabs .nav-item .nav-link {
+font-size: 12px;
+}
+.transactionSection .nav-tabs .nav-item .nav-link.active {
+  font-size: 12px;
+  }
+    }
+    .transactionSection  .heightByContent{
+  min-height: 100vh;
+  height: auto;
+ }
+
+ .transactionSection .button-content {
+  display: flex;
+  align-items: center;
+}
+
+.transactionSection .button-image {
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+
+.transactionSection .button-text {
+  font-weight: 500; /* Apply your font-weight here */
+  color: #F68A40
+  ; /* Apply your text color here */
+  /* Add other styling properties as needed */
+}
+.transactionSection .datepickerButton{
+  border: 1px solid #D3D3D3;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 250px;
+  width:auto;
+  font-size: 14px;
+  font-weight: 400;
+ border-radius: 4px;
+}

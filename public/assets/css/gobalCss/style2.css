@@ -1,0 +1,46 @@
+.mainSiteContainer{
+    max-width: 440px !important; /* Set a maximum width for the container */
+  margin: auto; /* Center the container horizontally */
+  padding:0px !important; 
+}
+.mainSiteContainer .loginInput{
+    width: 100% !important;
+    height: 54px !important;
+}
+.mainSiteContainer .loginInput1{
+margin-bottom: 26px !important;
+}
+.mainSiteContainer .logininput2Div{
+    margin-bottom: 11px !important;
+}
+.onBoardSubmitButton{
+    font-size: 20px !important;
+    padding: 16px 100px 16px 100px !important;
+    height: 58px !important;
+
+}
+
+  .bottomImageContainer{
+    background-color: #f8f0e7 !important;
+  height: 150px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  }
+
+
+@media (max-width: 767px) {
+    /* Adjust styles for smaller screens (e.g., mobile devices) */
+    .mainSiteContainer {
+      max-width: 100% !important; /* Allow the container to take full width on smaller screens */
+      text-align: center !important;
+      justify-content: center !important;
+    }
+    .mainRightDiv{
+        text-align: center !important;
+        justify-content: center !important;  
+    }
+  }
+
+.goBackIcon{
+  cursor: pointer !important;
+}

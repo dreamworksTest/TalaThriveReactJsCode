@@ -1,0 +1,5 @@
+ button[disabled] {
+  background-color:  #F2F2F2 !important; 
+  color: white ;  
+  cursor: not-allowed;
+}

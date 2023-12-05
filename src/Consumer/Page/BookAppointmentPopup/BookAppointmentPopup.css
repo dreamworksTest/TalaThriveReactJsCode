@@ -1,0 +1,213 @@
+
+@font-face {
+  font-family: 'Athletics';
+  src: url('../../../../public/assets/fonts/AthleticsRegular.otf') format('otf'),
+       url('../../../../public/assets/fonts/AthleticsRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+.informationModalTitle{
+color: var(--Soft-brown, #423B37);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 83.333% */
+}
+.informationModalDescription{
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.informationModalDescription bolp{
+font-weight: 800 !important;
+}
+.AthleticsFont{
+  font-family: 'Athletics', sans-serif;
+  letter-spacing: 0.5px;
+
+}
+.contactuslink{
+color: #F68A40;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+text-decoration-line: underline;
+cursor: pointer; 
+}
+.contactuslink:hover{
+  color: #F68A40;
+}
+.custom-modal {
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the modal horizontally */
+}
+.modal-body{
+  padding: 40px 50px 20px 50px !important;
+
+}
+.mainmodalProceedbutton{
+  color: #FFF;
+  font-family: Athletics;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  border-radius: 8px;
+  background: #423B37;
+  border: none !important;
+  height: 62px;
+  width: 100% !important;
+
+}
+
+.mainmodalProceedbutton:focus{
+  background-color: #FFD8AB !important;
+  color: #000;
+}
+.mainmodalProceedbutton:hover{
+  background-color:#FFD8AB;
+  color: #000;
+}
+/* .mainClientInformationModal .modal-content{ */
+  /* min-width: 848px!important; */
+  /* width: auto; */
+  /* width: 699px!important; */
+
+/* } */
+.mainClientInformationModal{
+  display: flex !important;
+  justify-content: center !important;
+}
+@media screen and (max-width: 768px) {
+.fade.modal.show{
+  padding: 0px !important;
+}
+}
+
+.BookApointmentSecondBox{
+  border-radius: 8px;
+background: #FAFAFA;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+p.availableSessionText{
+  color: #423B37;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0px;
+}
+p.availableSessionDate{
+color: #423B37;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0px;
+padding-top: 5px;
+}
+div.secondboxFirstRow{
+  margin-bottom: 31px;
+  margin-top: 27px;
+}
+div.scheduleColumn1{
+  padding: 0px;
+}
+div.scheduleColumn1 p{
+  color: #343434;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+div.scheduleColumn2 p{
+color: #423B37;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+div.scheduleColumn3 p{
+
+  
+}
+div.scheduleColumn2{
+  padding: 0px;
+}
+div.scheduleColumn3{
+  padding: 0px;
+}
+div.scheduleColumn3 button{
+
+border-radius: 28px;
+background: #FFF;
+color: #423B37;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+}
+.scheduleColumn1,
+.scheduleColumn2,
+.scheduleColumn3 {
+  height: 100%;
+}
+
+.vertical-align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BookApointmentSecondBox {
+  /* Adjust the height as needed */
+  
+  min-height: 300px;
+  height: auto;
+  padding-left: 28px;
+  padding-right: 20px;
+
+}
+.availablSessionColumn1{
+  padding-left: 0px;
+}
+
+
+.selectAppointmentForBookButton:focus{
+  border-radius: 28px;
+  background: #FFD8AB; 
+  }
+.selectAppointmentForBookButton:hover{
+border-radius: 28px;
+background: #FFD8AB; 
+}
+
+/* .mainmainsAppointmentBookBox{
+  overflow-y: auto;
+} */
+div.mainmainsAppointmentBookBox .row{
+  margin-bottom: 8px !important;
+}
+h3.bookappointmentPopupMainHeading{
+  color: #423B37;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+.backButtonFromAppointmentModal{
+
+color: #423B37;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+cursor: pointer;
+}

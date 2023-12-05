@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Athletics';
+    src: url('../../../../public/assets/fonts/AthleticsRegular.otf') format('otf'),
+         url('../../../../public/assets/fonts/AthleticsRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  } 
+
+div.gotMailMaincontainer{
+    background-color: #f8f0e7;
+    min-height: 100vh;
+    height:auto;
+  }
+
+  @media (min-width: 769px) {
+    div.gotMailMaincontainer {
+        background-image: url('../../../../public/assets/images/mainBackgroundImage/mainbackgroundImage.png');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+    }
+}
+
+  div.gotMailMaincontainerRow{
+    min-height: 100vh;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .mainRightDiv {
+      padding-top: 0px !important; /* Add your padding for medium screens here */
+    }
+  }
+
+  
+  
+  /* CSS for large screens (e.g., desktops and laptops) */
+  @media (min-width: 992px) {
+    .mainRightDiv {
+        padding-top: 0px !important;
+        padding-right: 40px;
+        padding-left: 40px;
+      /* Your styles for large screens here */
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 1100px) {
+    .gotMailMaincontainer div.mainLeftSideImage{ 
+      background-size: cover !important;
+      /* Adjust other background properties if needed */
+    }
+  }
+  @media (max-width: 768px) {
+    /* Your CSS styles here */
+    .gotMailMaincontainer div.mainLeftSideImage{ 
+        background-size: cover !important;
+        height: 800px; 
+        margin-bottom: 20px;
+        /* Adjust other background properties if needed */
+      }
+  }
+
+  .gotMailMaincontainer div.tab-pane{
+    background-color: #fff;
+    border-radius: 3px;
+  }
+  .gotMailMaincontainer div.mainLeftSideImage{
+            background: url('../../../../public/assets/images/loginImages/talathrivelogin.png'); 
+            background-size: contain; 
+            background-repeat: no-repeat;
+
+        }
+       .gotMailMaincontainer div.signupform2{
+            padding: 0px;
+        }
+       .gotMailMaincontainer .full-height {
+            height: 100vh;
+        }
+
+        .gotMailMaincontainer .bordered-list {
+            border: 1px solid #ccc;
+            padding: 20px;
+            /* border-radius: 10px; */
+        }
+
+
+        .gotMailMaincontainer button.choosePasswordMainButton{
+            width: 100%;
+            background-color: #f68a40;
+            color: #fff;
+           font-weight: 500;
+           border: none !important;
+        }
+        .gotMailMaincontainer button.choosePasswordMainButton:hover{
+           background-color: #f68a40d6;
+        
+        }
+        .gotMailMaincontainer button.choosePasswordMainButton:focus{
+            background-color: #f68a40 !important;
+         
+         }
+
+   
+ .gotMailMaincontainer .loginlink{
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+ }        
+.gotMailMaincontainer .loginlink span{
+    text-decoration: none;
+    color: #F68A40;
+    font-family: Athletics;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.gotMailMaincontainer .custom-label {
+    text-align: left;
+}
+
+.gotMailMaincontainer .full-width-button {
+    width: 100%;
+}
+
+.gotMailMaincontainer .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.gotMailMaincontainer .divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #ccc;
+}
+
+.gotMailMaincontainer .divider span {
+    padding: 0 10px;
+}
+.gotMailMaincontainer label.form-check-label a{
+    color: #000 !important;
+}
+.gotMailMaincontainer .password-toggle {
+    position: relative;
+}
+
+.gotMailMaincontainer .password-toggle .password-eye {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #707070;
+}
+.gotMailMaincontainer input.form-control{
+    height: 60px;
+    border-color: #fedac0;
+}
+
+.gotMailMaincontainer .loginlinkDesktop a{
+    text-decoration: none;
+    color: #f68a40;
+
+}
+.gotMailMaincontainer p.mainDescription{
+    color: #423B37;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+.gotMailMaincontainer div.inputwidthmanage{
+    width: 390px;
+}
+
+.passwordchangedcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gotMailMaincontainer div a.forgotpasswordlink{
+    float: right;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #807d78;
+
+}
+.gotMailMaincontainer h2.maintitle{
+    color: #423B37;
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.gotMailMaincontainer .container.passwordchangedcontainer{
+    /* background-color: #fff; */
+    padding: 30px;
+    text-align: center;
+}
+.OutfitFont{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+.AthleticsFont{
+    font-family: 'Athletics', sans-serif;
+    letter-spacing: 0.5px;
+}
+.gotMailMaincontainer .crossButton{
+    cursor: pointer;
+}
+/* @media (min-width: 510px) and (max-width: 767px) {
+    .gotMailMaincontainer div.mainLeftSideImage{
+        background-size: cover !important;
+    }
+}     */
